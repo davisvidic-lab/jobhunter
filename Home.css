@@ -1,0 +1,164 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    line-height: 1.4;
+}
+.content{
+    margin: 50px;
+    float:right;
+    width: 100%;
+}
+
+.fill h2{
+    text-align: center;
+}
+.grid1{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+}
+.grid1:hover{
+    background: blue;
+    color: white;
+}
+.grid2{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 3px;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+.grid2:hover{
+    background: blue;
+    color: white;
+}
+.grid3{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 3px;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+.grid3:hover{
+    background: blue;
+    color: white;
+}
+.grid4{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 3px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.grid4:hover{
+    background: blue;
+    color: white;
+}
+.section2{
+    display: grid;
+    grid-template-columns: auto auto ;
+}
+.button{
+    margin-left: 15px;
+    border-radius: 5px;
+    background: rgb(103, 103, 224);
+    padding: 5px;
+    float: right;
+    top: 80%;
+    width: 20%;
+    padding: 0%;
+    height: 40px;
+    position: absolute;
+}
+button .portfolio{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.Navbar{
+    float: right;
+    width: 0%;
+    background: tomato;
+    height: 100vh;
+    text-align: center;
+    line-height: 0.2;
+        
+}
+.Navbar h1 {
+    color: blue;
+}
+.Navbar img{
+    border-radius: 50px;
+}
+.Navbar a{
+    text-decoration: none;
+    color: blue;
+    line-height: 4.8;
+    margin-right: 25px;
+    font-weight: bolder;
+}
+.Navbar p{
+    font-family: Bodoni MT Condensed;
+    margin-bottom: 20px;
+    margin-top:-20px;
+}
+.Navbar ul{
+    list-style: none;
+}
+.Navbar ul li a {
+    font-size: 20px;
+}
+.Navbar ul li a:hover{
+    background: black;
+    color: white;
+    padding: 5px;
+    transition: 0.5s;
+    border:8px solid grey;
+    border-radius: 23px;
+}
+.social {
+    display: flex;
+    padding: 12px;
+}
+.social li{
+    padding: 15px;
+}
+/*--media query--*/
+@media screen and  (min-width:320px) {
+    .content{
+        width: 60%;
+    }
+    .content img{
+        width: 70%;
+        margin: 3px;
+    }
+    .Navbar{
+        width: 30%;
+        position: absolute;
+        height: 100vh;
+    }
+    .Navbar img{
+        width: 50px;
+    }
+    .Navbar h1{
+        font-size: 14px;
+    }
+    .Navbar p{
+        font-size: 10px;
+        margin-top: 3px;
+    }
+    .Navbar a{
+        font-size: 10px;
+        margin-left: -25px;
+    }
+    button{
+        width: 70%;
+        height: 10%;
+       margin-top: -5px;
+      
+    }
+    
+}
